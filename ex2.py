@@ -7,7 +7,16 @@ Exemplo de entrada: [1, 2, 3, 4, 5]
 Exemplo de saída: [2, 4] 
 
 '''
-
+'''
 lista_num = [randint(50,8000) for _ in range(50)] 
 retorno = list(filter(lambda x: x % 2 == 0, lista_num))
 print(retorno)
+'''
+
+def num_pares(lista: list[int]) :
+    return list(filter(lambda x: x % 2 ==0, lista))
+
+lista = [randint(50,8000) for _ in range(50)] 
+resultado = num_pares(lista)
+print(lista) 
+
