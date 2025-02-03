@@ -7,6 +7,16 @@ Exemplo de entrada: [3, 1, 4, 2]
 Exemplo de saída: [1, 4, 9, 16] 
 
 '''
-lista_numeros = [randint(50, 200) for _ in range(10)]
+'''lista_numeros = [randint(50, 200) for _ in range(10)]
 quadrado = sorted(map(lambda x: x ** 2, lista_numeros))
 print(quadrado)
+'''
+
+def ordenar():
+    return sorted(map(lambda x: x ** 2, lista))
+
+lista = [randint(50, 200) for _ in range(10)]
+resultado = ordenar()
+print(resultado)
+
+
