@@ -14,6 +14,7 @@ lista_num = [randint(50,8000) for _ in range(50)]
 soma = reduce(lambda x, y: x + y, lista_num)
 print(soma) 
 '''
+
 def soma(lista = list[int]):
     return reduce(lambda x,y: x + y, lista)
 
